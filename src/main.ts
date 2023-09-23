@@ -46,11 +46,11 @@ async function play(path: string) {
 }
 
 async function main() {
-  await play("/demo-1.gif");
-  await play("/demo-2.gif");
-  await play("/demo-3.gif");
-  await play("/demo-4.gif");
-  await play("/demo-5.gif");
+  await play("./demo-1.gif");
+  await play("./demo-2.gif");
+  await play("./demo-3.gif");
+  await play("./demo-4.gif");
+  await play("./demo-5.gif");
 }
 
 main();
